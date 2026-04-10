@@ -3,7 +3,7 @@ runtime: python39
 entrypoint: gunicorn -b :$PORT main:app
 
 
-//index.html:
+//main.py:
 from flask import Flask, render_template
 app = Flask(__name__)
 @app.route('/')
